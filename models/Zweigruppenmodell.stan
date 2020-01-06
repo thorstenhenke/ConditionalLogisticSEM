@@ -1,6 +1,6 @@
 functions {
-  #include "cond_logistic.stan"
-  #include "Rsquared.stan"
+  #include "../includes/cond_logistic.stan"
+  #include "../includes/Rsquared.stan"
 }
 data {
   int N[2]; // Number of participants per Group
